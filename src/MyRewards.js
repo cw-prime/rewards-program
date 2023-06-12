@@ -10,13 +10,14 @@ const RewardCalculator = () => {
       await new Promise((resolve) => setTimeout(resolve, 1000));
       // Simulated transaction data for three months
       const data = [
+
         { customer: 'Luke', transactionAmount: 120, transactionDate: '2023-04-15' },
         { customer: 'Laila', transactionAmount: 80, transactionDate: '2023-04-20' },
         { customer: 'Laila', transactionAmount: 150, transactionDate: '2023-05-05' },
         { customer: 'Luke', transactionAmount: 90, transactionDate: '2023-06-10' },
         { customer: 'Laila', transactionAmount: 110, transactionDate: '2023-06-05' },
         { customer: 'Luke', transactionAmount: 80, transactionDate: '2023-05-17' }
-        // Add more transaction data here...
+more transaction data here...
       ];
       setTransactionData(data);
     };
