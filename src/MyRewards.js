@@ -10,9 +10,9 @@ const RewardCalculator = () => {
       await new Promise((resolve) => setTimeout(resolve, 1000));
       // Simulated transaction data
       const data = [
-        { customer: 'John', transactionAmount: 120 },
-        { customer: 'Jane', transactionAmount: 80 },
-        { customer: 'John', transactionAmount: 60 },
+        { customer: 'Luke', transactionAmount: 120 },
+        { customer: 'Laila', transactionAmount: 80 },
+        { customer: 'Luke', transactionAmount: 60 },
         // Add more transaction data here...
       ];
       setTransactionData(data);
